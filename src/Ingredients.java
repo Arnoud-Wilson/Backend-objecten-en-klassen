@@ -2,7 +2,7 @@ package src;
 
 public class Ingredients {
     // Variables for ingredients //
-    private int amount;
+    private double amount;
     private String unit;
     private String name;
 
@@ -10,25 +10,23 @@ public class Ingredients {
     public Ingredients() {
     }
 
-    public Ingredients(int amount, String unit, String name) {
+    public Ingredients(double amount, String unit, String name) {
         this.amount = amount;
         this.unit = unit;
         this.name = name;
     }
 
     // Getters and Setters for ingredients //
-    public void setAmount(int amount) {
+    public void setAmount(double amount) {
         this.amount = amount;
     }
-
-    public int getAmount() {
+    public double getAmount() {
         return amount;
     }
 
     public void setUnit(String unit) {
         this.unit = unit;
     }
-
     public String getUnit() {
         return unit;
     }
@@ -36,7 +34,6 @@ public class Ingredients {
     public void setName(String name) {
         this.name = name;
     }
-
     public String getName() {
         return name;
     }
